@@ -1,0 +1,15 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer theme {
+  :root {
+    --tw-color-primary: #3490dc;
+  }
+
+  .focus\:border-blue-500:focus{
+      outline: 2px solid var(--tw-color-primary);
+      outline-offset: 2px;
+  }
+}
